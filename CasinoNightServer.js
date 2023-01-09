@@ -40,7 +40,7 @@ app.post("/ConfirmationPage", async (request, response) => {
         guests: request.body.guests,
         venmo: request.body.venmo
     };
-
+    console.log(request.body.phonenumber);
     id = await insertAttendee(client, databaseAndCollection, attendee);
     url = "https://api.qrserver.com/v1/create-qr-code/?data=" + id + "&size=100x100";
     const variables = {
