@@ -3,7 +3,7 @@ const express = require("express");   /* Accessing express module */
 const app = express();  /* app is a request handler function */
 const bodyParser = require("body-parser"); /* To handle post parameters */
 const path = require("path");
-require("dotenv").config({ path: path.resolve(__dirname, '.env') })
+require("dotenv").config({ path: path.resolve(__dirname, 'credentials/.env') })
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/templates'));
 
