@@ -3,7 +3,7 @@ const express = require("express");   /* Accessing express module */
 const app = express();  /* app is a request handler function */
 const bodyParser = require("body-parser"); /* To handle post parameters */
 const path = require("path");
-require("dotenv").config({ path: path.resolve(__dirname, 'credentials/.env') })
+require("dotenv").config({ path: path.resolve(__dirname, '.env') })
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/templates'));
 
@@ -34,9 +34,9 @@ app.post("/ConfirmationPage", async (request, response) => {
         firstname : request.body.firstName,
         lastname : request.body.lastName,
         email : request.body.email,
-        dietaryrestrictions : request.body.dietaryRestrictions,
-        phonenumber : request.body.phoneNumber,
-        numbertickets: request.body.numberTickets,
+        dietaryrestrictions : request.body.dietaryrestrictions,
+        phonenumber : request.body.phonenumber,
+        numbertickets: request.body.numbertickets,
         guests: request.body.guests,
         venmo: request.body.venmo
     };
