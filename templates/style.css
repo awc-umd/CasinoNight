@@ -38,3 +38,20 @@ h3 {
     text-align: center;
     color: white;
 }
+
+
+/* RSVP Link */
+/* unvisited link */
+a:link {
+  color: gold;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
