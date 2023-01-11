@@ -28,23 +28,11 @@ body {
     text-align: justify;
 }
 
-/* attempting glowing text */
-.glow {
-  font-size: 100px;
-  color: white;
-  text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
+/* image */
+img {
+    object-fit: cover;
 }
 
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px #ffde5c, 0 0 40px #ffde5c, 0 0 50px #ffde5c, 0 0 60px #ffde5c, 0 0 70px #ffde5c;
-  }
-  
-  to {
-    text-shadow: 0 0 20px white, 0 0 30px #ffde5c, 0 0 40px #ffde5c, 0 0 50px #ffde5c, 0 0 60px #ffde5c, 0 0 70px #ffde5c, 0 0 80px #ffde5c;
-  }
-}
 
 h3 {
     text-align: center;
