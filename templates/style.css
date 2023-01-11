@@ -13,7 +13,7 @@ h1 {
 /* main body style */
 body {
     background-color: black;
-    padding: 30px;
+    /* padding: 30px */
     margin: 0;
     text-align: center;
 }
