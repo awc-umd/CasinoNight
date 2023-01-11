@@ -27,10 +27,15 @@ body {
 }
 
 /* image */
-img {
-    object-fit: cover;
+.gallery {
+    background-image: url("/Images/photo gallery.png");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
-
 
 h3 {
     text-align: center;
