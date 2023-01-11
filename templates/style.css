@@ -4,10 +4,22 @@ html{
     color: #999dbd;
 }
 
-/* test */
+/* main body style */
 body {
     background-color: black;
     padding: 30px;
     margin: auto;
     text-align: center;
+}
+
+/* description style */
+.description {
+    color: white;
+    text-align: justify;
+    padding: 30px;
+    margin: auto;
+}
+
+h3 {
+    color: #999dbd;
 }
