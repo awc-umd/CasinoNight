@@ -28,7 +28,7 @@ body {
 
 /* image */
 .gallery {
-    background-image: url("/Images/PhotoGallery.png");
+    background-image: url("/Images/PhotoGallery.jpg");
     background-color: #cccccc;
     height: 400px;
     background-position: center;
