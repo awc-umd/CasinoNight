@@ -28,11 +28,11 @@ body {
 
 /* image */
 .gallery {
-    background-image: url("/Images/Casino Night Landing-2.png");
+    /*background-image: url("/Images/Casino Night Landing-2.png");*/
     background-image: url("/Images/PhotoGallery.jpg");
     background-color: #cccccc;
-    height: 700px;
-    width: 1300px;
+    height: 900px;
+    width: 1500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
