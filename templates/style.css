@@ -31,7 +31,8 @@ body {
     background-image: url("/Images/Casino Night Landing-2.png");
     background-image: url("/Images/PhotoGallery.jpg");
     background-color: #cccccc;
-    height: 200px;
+    height: 800px;
+    width: 1000px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
