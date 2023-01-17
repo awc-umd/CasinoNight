@@ -95,20 +95,19 @@ input {
 fieldset {
     text-align: left;
     padding: 20px;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 legend {
     text-align: center;
     background-color: #999dbd;
     color: black;
-    font-size: 40px;
-    padding: 5px 10px;
+    font-size: 30px;
+    padding: 10px 15px;
 }
 
 form {
   margin: 10px;
-  width: 1000px;
 }
 
 div {
