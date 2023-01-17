@@ -92,12 +92,12 @@ input {
 }
 
 fieldset {
-    background-color: #eeeeee;
     text-align: left;
     padding: 10px;
 }
 
 legend {
+    text-align: center;
     background-color: #999dbd;
     color: black;
     font-size: 15px;
