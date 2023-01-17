@@ -89,26 +89,28 @@ a:hover {
 /* rsvp form css */
 input {
     margin: 7px;
+    padding: 10px;
 }
 
 fieldset {
     text-align: left;
-    padding: 10px;
+    padding: 30px;
+    font-size: 15px;
 }
 
 legend {
     text-align: center;
     background-color: #999dbd;
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     padding: 5px 10px;
 }
 
 form {
-  width: 600px;
-  margin: 0 auto;
+  margin: 10px;
 }
 
 div {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
