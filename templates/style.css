@@ -103,3 +103,12 @@ legend {
     font-size: 15px;
     padding: 5px 10px;
 }
+
+form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 10px;
+}
