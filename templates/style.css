@@ -84,3 +84,22 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
+
+/* rsvp form css */
+input {
+    margin: 7px;
+}
+
+fieldset {
+    background-color: #eeeeee;
+    text-align: left;
+    padding: 10px;
+}
+
+legend {
+    background-color: #999dbd;
+    color: black;
+    font-size: 15px;
+    padding: 5px 10px;
+}
