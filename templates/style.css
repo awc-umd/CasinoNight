@@ -20,10 +20,10 @@ body {
 
 /* description style */
 .description {
-    font-size: 12px;
+    font-size: 13px;
     color: white;
     margin: 20px;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -58,6 +58,9 @@ p {
     padding: 30px;
 }
 
+hr {
+    color: gold;
+}
 
 /* RSVP Link */
 /* unvisited link */
