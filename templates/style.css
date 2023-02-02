@@ -12,7 +12,7 @@ h1 {
 
 /* main body style */
 body {
-    background-color: black;
+    background-color: #760809;
     /* padding: 30px */
     margin: 0;
     text-align: center;
@@ -38,7 +38,7 @@ body {
 }
 
 .landingPage {
-    background-image: url("/Images/Casino Night Landing-2.png");
+    background-image: url("/Images/official casino night landing page.png");
     background-color: #cccccc;
     height: 800px;
     background-position: center;
