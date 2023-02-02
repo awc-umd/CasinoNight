@@ -126,3 +126,9 @@ div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
+/* footers */
+footer {
+  font-size: 13px;
+  text-align: left;
+}
