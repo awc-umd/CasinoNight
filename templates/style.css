@@ -20,31 +20,30 @@ body {
 
 /* description style */
 .description {
-    font-size: 13px;
     color: white;
-    margin: 20px;
-    padding: 30px;
+    margin: 30px;
+    padding: 15px;
     text-align: center;
 }
 
 /* image */
-.center {
+/* .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
+} */
 
-
-/* .gallery {
-    background-image: url("/Images/PhotoGallery.jpg");
+.gallery {
+    background-image: url("/Images/photo gallery casino night.png");
     background-color: #cccccc;
-    height: 400px;
+    height: 800px;
+    width: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-} */
+}
 
 .landingPage {
     background-image: url("/Images/official casino night landing page.png");
@@ -68,7 +67,7 @@ p {
 }
 
 hr {
-    border: 1px solid gold;
+    border: 1px solid white;
 }
 
 /* RSVP Link */
